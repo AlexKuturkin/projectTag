@@ -1,0 +1,90 @@
+.play__game {
+    color: steelblue;
+    font-size: 48px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#board {
+    display: block;
+    margin: 25px auto 25px;
+    padding: 2px;
+    border: 5px solid powderblue;
+    width: 552px;
+    height: 552px;
+    position: relative;
+}
+
+.buttons {
+    margin: 25px auto 25px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+.button {
+    background-color: powderblue;
+    border: 2px solid skyblue;
+    color: steelblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.counter {
+    width: 100px;
+}
+
+.block {
+    position: absolute;
+    width: 124px;
+    height: 114px;
+    border: 2px solid skyblue;
+    background-color: powderblue;
+    margin: 4px;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: SteelBlue;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;  
+}
+
+.count {
+    font-size: 30px;
+    margin: 0;
+}
+
+.counter__headline {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.stopwatch {
+    background-color: powderblue;
+    border: 2px solid skyblue;
+    font-size: 15px;
+    color: SteelBlue;
+}
+
+.x1y1 { left: 0px; top: 0px;}
+.x2y1 { left: 140px; top: 0px;}
+.x3y1 { left: 280px; top: 0px;}
+.x4y1 { left: 420px; top: 0px;}
+
+.x1y2 { left: 0px; top: 140px;}
+.x2y2 { left: 140px; top: 140px;}
+.x3y2 { left: 280px; top: 140px;}
+.x4y2 { left: 420px; top: 140px;}
+
+.x1y3 { left: 0px; top: 280px;}
+.x2y3 { left: 140px; top: 280px;}
+.x3y3 { left: 280px; top: 280px;}
+.x4y3 { left: 420px; top: 280px;}
+
+.x1y4 { left: 0px; top: 420px;}
+.x2y4 { left: 140px; top: 420px;}
+.x3y4 { left: 280px; top: 420px;}
+.x4y4 { left: 420px; top: 420px;}
